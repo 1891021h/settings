@@ -1,0 +1,98 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "php.validate.executablePath": "C:/Program Files/php/php.exe",
+    "python.pythonPath": "C:\\Users\\R-tak\\anaconda3\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "jupyter.interactiveWindowMode": "perFile",
+    "python.languageServer": "Pylance",
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？てにをはがのともへでや",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "Latexmk (XeLaTeX)",
+            "command": "latexmk",
+            "args": [
+            "-f", "-gg", "-pv", "-xelatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+            ]
+        },
+        {
+            "name": "Latexmk (upLaTeX)",
+            "command": "latexmk",
+            "args": [
+            "-f", "-gg", "-pv", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+            ]
+        },
+        {
+            "name": "Latexmk (pLaTeX)",
+            "command": "latexmk",
+            "args": [
+            "-f", "-gg", "-pv", "-latex='platex'", "-latexoption='-kanji=utf8 -no-guess-input-env'", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+            ]
+        },
+        {
+            "name": "Latexmk (LuaLaTeX)",
+            "command": "latexmk",
+            "args": [
+            "-f", "-gg", "-pv", "-lualatex", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "upLaTeX",
+            "tools": [
+            "Latexmk (upLaTeX)"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+            "Latexmk (XeLaTeX)"
+            ]
+        },
+        {
+            "name": "pLaTeX",
+            "tools": [
+            "Latexmk (pLaTeX)"
+            ]
+        },
+        {
+            "name": "LuaLaTeX",
+            "tools": [
+            "Latexmk (LuaLaTeX)"
+            ]
+        }
+    ],
+    "latex-workshop.latex.magic.args": [
+        "-f", "-gg", "-pv", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"
+    ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot", "*.out", "*.toc", "*.acn", "*.acr", "*.alg", "*.glg", "*.glo", "*.gls", "*.ist", "*.fls", "*.log", "*.fdb_latexmk", "*.synctex.gz",
+        "_minted*", "*.nav", "*.snm", "*.vrb",
+    ],
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "workbench.colorTheme": "Default Light+",
+    "markdown.styles": [
+        "miupon.css"
+    ],
+    "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+    "markdown-pdf.convertOnSave": true,
+    "markdown-pdf.type": ["html"],
+}    
